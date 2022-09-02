@@ -19,7 +19,7 @@ const mockCouponsMap = [
   {
     id: "starbucks",
     title: "托马，再来一杯！",
-    brand: "Starbucks",
+    brand: "喜茶",
     desc: "任意饮品可免费再续一杯",
     overview: "各位旅行者，\n活动即将开启，敬请期待！",
     expires: "有效期 未知",
