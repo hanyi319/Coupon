@@ -6,6 +6,8 @@ const mockCouponsMap = [
     brand: "肯德基",
     desc: "满99减50",
     overview: "说出暗号\n「异世相遇，尽享美味！」\n会有神秘惊喜",
+    character1: "Diluc",
+    character2: "Noelle",
     expires: "有效期至 2021年3月21日",
   },
   {
@@ -14,6 +16,8 @@ const mockCouponsMap = [
     brand: "必胜客",
     desc: "可兑换猫尾特调一杯",
     overview: "说出暗号\n「风起必胜，应约而来！」\n会有神秘惊喜",
+    character1: "Amber",
+    character2: "Yula",
     expires: "有效期至 2022年9月17日",
   },
   {
@@ -22,6 +26,8 @@ const mockCouponsMap = [
     brand: "喜茶",
     desc: "任意饮品可免费再续一杯",
     overview: "各位旅行者，\n活动即将开启，敬请期待！",
+    character1: "Ayaka",
+    character2: "Ayato",
     expires: "有效期 未知",
   },
 ];
@@ -42,6 +48,7 @@ const setCouponData = function (data) {
   document.querySelector(".coupon-detail .brand").innerText = data.brand;
   document.querySelector(".coupon-detail .desc").innerText = data.desc;
   document.querySelector(".coupon-detail .overview").innerText = data.overview;
+  document.querySelector(".coupon-detail .contentWrapper i").className = `logo ${data.character1}`;
   document.querySelector(".coupon-detail .share .sub-text").innerText = data.expires;
 };
 

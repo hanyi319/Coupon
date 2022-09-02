@@ -131,6 +131,28 @@ body {
   background-image: url("./img/starbucks-icon.svg");
 }
 
+/* Q版角色 */
+
+.Diluc {
+  background-image: url("./img/Diluc.png");
+}
+
+.Yula {
+  background-image: url("./img/Yula.png");
+}
+
+.Amber {
+  background-image: url("./img/Amber.png");
+}
+
+.Ayaka {
+  background-image: url("./img/Ayaka.png");
+}
+
+.Ayato {
+  background-image: url("./img/Ayato.png");
+}
+
 /* border-image-slice 实现自定义边框，只显示右侧 */
 .business-logo::after {
   content: "";
@@ -232,7 +254,16 @@ body {
 .coupon-detail .overview {
   padding: 0 54px;
   font-size: 14px;
-  margin-top: 16px;
+  margin: 16px 0;
+}
+
+.coupon-detail .characterWrapper {
+  width: 56px;
+  height: 56px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  display: block;
 }
 
 .coupon-detail .share {
